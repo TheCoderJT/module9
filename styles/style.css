@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: whitesmoke;
+}
+
+/** HEADER */
+
+header {
+  width: 725px;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: #703bd5;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+header img {
+  width: 225px;
+  margin: 2em 0;
+}
+
+/** Main Content */
+
+.container {
+  width: 850px;
+  margin: 0 auto 2em auto;
+  background-color: #703bd5;
+  padding: 2.25em;
+  border-radius: 5px;
+}
+
+/* HTML */
+
+.html-container {
+  text-align: left;
+  margin-bottom: 1.2em;
+}
+
+.html_heading {
+  font-size: 1.25rem;
+}
+
+.html_content {
+  margin: 0.55em 0;
+  font-size: 14px;
+}
+
+.html_list {
+  list-style: none;
+  margin: 1em 0 1em 0;
+}
+
+.item {
+  font-size: 14px;
+  padding-left: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.item--highlight {
+  color: #fde9a5;
+  padding-left: 0.75em;
+  border-left: 2px solid #fde9a5;
+}
+
+.html_moreinfo {
+  font-size: 14px;
+}
+.html_moreinfo a {
+  background-color: #fde9a5;
+  text-decoration: none;
+  padding: 0.18em;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.html_moreinfo a:hover {
+  background-color: #ffe48b;
+}
+
+/* CSS */
+
+.css-container {
+  text-align: left;
+}
+
+.css_heading {
+  font-size: 1.25rem;
+}
+
+.css_content {
+  margin: 0.55em 0;
+  font-size: 14px;
+}
+
+.css_list {
+  list-style: none;
+  margin: 1em 0 1em 0;
+}
+
+.css_moreinfo {
+  font-size: 14px;
+}
+.css_moreinfo a {
+  background-color: #fde9a5;
+  text-decoration: none;
+  padding: 0.18em;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.css_moreinfo a:hover {
+  background-color: #ffe48b;
+}
+
+/** Footer */
+
+.footer_container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.footer_button {
+  display: inline-block;
+  padding: 0.75em 1.15em;
+  background-color: #fbc02a;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  font-size: 1.15rem;
+}
+
+.footer_button:hover {
+  background-color: #ffb700;
+}
+
+.footer_copyright {
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+}
